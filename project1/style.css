@@ -1,0 +1,41 @@
+h1 {
+	color: rgba(200,0,255,0.5);
+}
+
+/*
+@font-face {
+	src: url("font.otf");
+	font-family: "nameitwhatever";
+	font-style: "bold";
+}
+
+p {
+	font-family: "nameitthewhatever", sans-serif;
+}
+*/
+
+p {
+	font-family: "futura", "helvetica", sans-serif;
+}
+
+p:hover {
+	color: red;
+	cursor: pointer;
+	letter-spacing: 5px;
+}
+
+a {
+	color: rgba(200,200,200,1);
+	text-decoration: none;
+}
+
+a:hover {
+	color: rgba(200,0,0,1);
+}
+a:focus {
+	color: rgba(0,200,0,1);
+}
+a:active {
+	color: rgba(0,0,0,1);
+}
+a:visited {}
